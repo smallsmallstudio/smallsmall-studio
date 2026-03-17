@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/studio/(.*)", "destination": "/studio/$1" },
+    { "source": "/", "destination": "/index.html" }
+  ]
+}
+```
+
+Sauvegarde avec **Ctrl+S**, puis :
+```
+git add .
+git commit -m "add vercel config"
+git push
