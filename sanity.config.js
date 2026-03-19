@@ -6,13 +6,11 @@ import {schemaTypes} from './schemaTypes'
 export default defineConfig({
   name: 'default',
   title: 'smallsmall-studio',
-
+  basePath: '/studio',
   projectId: 'cs35tgtk',
   dataset: 'production',
-
   plugins: [structureTool(), visionTool()],
-
   schema: {
     types: schemaTypes,
   },
-})
+})s
